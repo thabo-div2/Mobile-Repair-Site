@@ -6,6 +6,7 @@
     <title>Mobile Repair Store</title>
     <link rel="stylesheet" href="./Styles/Social.css" />
     <link rel="stylesheet" href="./Styles/Contact.css" />
+    <link rel="stylesheet" href="./Styles/Nav.css" />
     <!-- External Scripts -->
     <script
       src="https://kit.fontawesome.com/9bcb9c378d.js"
@@ -27,30 +28,40 @@
     </div>
     <!-- Contact Bar -->
     <div id="contact">
-      <img
-        src="Images/WhatsApp Image 2021-04-13 at 10.16.23.jpeg"
-        alt="Mobile Repair Logo"
-      />
+      <img src="Images/logo.png" alt="Mobile Repair Logo" />
       <div class="contact-space">
-        <div>
-          <i class="fas fa-phone-alt"></i>
-          <div>
-            <p>Contact Us</p>
-            <p>(123)456-7890</p>
+        <div class="contact-information">
+          <i class="contact-icon fas fa-phone-alt"></i>
+          <div class="contact-heading">
+            <p class="contact-word-top">Contact Us</p>
+            <p class="contact-word-bottom">(123)456-7890</p>
           </div>
         </div>
-        <div>
-          <i class="far fa-clock"></i>
-          <div>
-            <p>Working Time</p>
-            <p>Mon - Sat: 10:00 - 18:00</p>
+        <div class="contact-information">
+          <i class="contact-icon far fa-clock"></i>
+          <div class="contact-heading">
+            <p class="contact-word-top">Working Time</p>
+            <p class="contact-word-bottom">Mon - Sat: 10:00 - 18:00</p>
           </div>
         </div>
-        <a href="#">Get a free quote</a>
+        <a class="button" href="#">Get a free quote</a>
       </div>
     </div>
     <!-- Navigation Bar -->
-    <nav>Navbar</nav>
+    <nav id="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link"><a href="#">Home</a></li>
+        <li class="navbar-link"><a href="#">About us</a></li>
+        <li class="navbar-link"><a href="#">Our Team</a></li>
+        <li class="navbar-link"><a href="#">Pages</a></li>
+        <li class="navbar-link"><a href="#">Our Services</a></li>
+        <li class="navbar-link"><a href="#">Blog</a></li>
+        <li class="navbar-link"><a href="#">Shop</a></li>
+        <li class="navbar-link"><a href="#">Contact Us</a></li>
+      </ul>
+      <button class="mobile-menu"><i class="fas fa-bars"></i></button>
+      <i class="search-icon fas fa-search"></i>
+    </nav>
     <!-- Landing Section -->
     <header>Landing Section</header>
     <!-- Why Section -->
